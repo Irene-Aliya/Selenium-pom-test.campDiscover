@@ -16,7 +16,7 @@ public class TestBase {
 
         try {
 
-            webDriver = new ChromeDriver();//实例化
+            webDriver = new ChromeDriver();
             webDriver.get("http://localhost:3000");
             webDriver.manage().window().maximize();
 
